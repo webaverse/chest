@@ -131,8 +131,8 @@ export default e => {
 
           dropManager.createDropApp({
             type: 'minor',
-            start_url: moduleUrls.silk,
-            // start_url: 'https://webaverse.github.io/silsword/',
+            // start_url: moduleUrls.silk,
+            start_url: 'https://webaverse.github.io/silsword/',
             components: [
               {
                 key: 'appName',
@@ -140,8 +140,8 @@ export default e => {
               },
               {
                 key: 'appUrl',
-                value: moduleUrls.silk,
-                // value: 'https://webaverse.github.io/silsword/',
+                // value: moduleUrls.silk,
+                value: 'https://webaverse.github.io/silsword/',
               }
             ],
             position: app.position.clone()
