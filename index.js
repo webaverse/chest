@@ -136,7 +136,8 @@ export default e => {
             components: [
               {
                 key: 'appName',
-                value: 'Silk'
+                // value: 'Silk'
+                value: 'Silsword'
               },
               {
                 key: 'appUrl',
