@@ -131,15 +131,18 @@ export default e => {
 
           dropManager.createDropApp({
             type: 'minor',
-            start_url: moduleUrls.silk,
+            // start_url: moduleUrls.silk,
+            start_url: moduleUrls.silsword,
             components: [
               {
                 key: 'appName',
-                value: 'Silk'
+                // value: 'Silk'
+                value: 'Silsword'
               },
               {
                 key: 'appUrl',
-                value: moduleUrls.silk
+                // value: moduleUrls.silk
+                value: moduleUrls.silsword
               }
             ],
             position: app.position.clone()
