@@ -130,7 +130,8 @@ export default e => {
           const dropManager = useDropManager();
 
           dropManager.createDropApp({
-            type: 'minor',
+            // type: 'minor',
+            type: 'major',
             // start_url: moduleUrls.silk,
             start_url: moduleUrls.silsword,
             components: [
