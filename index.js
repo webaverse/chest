@@ -133,17 +133,17 @@ export default e => {
             // type: 'minor',
             type: 'major',
             // start_url: moduleUrls.silk,
-            start_url: moduleUrls.silsword,
+            start_url: 'https://webaverse.github.io/axe/index.js',
             components: [
               {
                 key: 'appName',
                 // value: 'Silk'
-                value: 'Silsword'
+                value: 'Axe'
               },
               {
                 key: 'appUrl',
                 // value: moduleUrls.silk
-                value: moduleUrls.silsword
+                value: 'https://webaverse.github.io/axe/index.js'
               }
             ],
             position: app.position.clone()
