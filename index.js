@@ -130,20 +130,20 @@ export default e => {
           const dropManager = useDropManager();
 
           dropManager.createDropApp({
-            // type: 'minor',
-            type: 'major',
+            type: 'minor',
+//             type: 'major',
             // start_url: moduleUrls.silk,
-            start_url: 'https://webaverse.github.io/silsword/index.js',
+            start_url: 'https://webaverse.github.io/silk/index.js',
             components: [
               {
                 key: 'appName',
-                // value: 'Silk'
-                value: 'silsword'
+                value: 'Silk'
+//                 value: 'silsword'
               },
               {
                 key: 'appUrl',
                 // value: moduleUrls.silk
-                value: 'https://webaverse.github.io/silsword/index.js'
+                value: 'https://webaverse.github.io/silk/index.js'
               }
             ],
             position: app.position.clone()
